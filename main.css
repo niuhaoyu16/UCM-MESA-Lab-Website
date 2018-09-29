@@ -6,7 +6,10 @@ html,body {padding: 0; margin: 0;} /*removes default padding around things*/
   flex-direction: row-reverse;/* buttons to align left to right on screen*/
   background-color: #57d31f;
   top:0;
-  position: relative;
+  position: absolute;/*fix position of nav bar to top of screen*/
+  left: 0;
+  right: 0;
+  width:auto;
   padding: 10px;
   margin: 0px;
 

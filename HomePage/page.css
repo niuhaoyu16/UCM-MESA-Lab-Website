@@ -1,0 +1,39 @@
+html,body {padding: 0; margin: 0;} /*removes default padding around things*/
+
+.section_fullscreen {/*class for fullscreen item/block*/
+  padding: 100px 0; /*padding top botton but not sides*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back_img1 {
+  margin-top: 50px;
+  background-image: url("images/mesalab-banner-white.jpg");
+  /* Full height */
+  height: 400px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+
+  position: relative;
+  max-width: 1040px; /*max width of text line in content*/
+  vertical-align: middle;
+  color: black;/*textcolor*/
+
+}
+
+.center {
+  text-align: center;
+}
+
+.column{
+
+}
+
+.example {
+  position: absolute;
+}

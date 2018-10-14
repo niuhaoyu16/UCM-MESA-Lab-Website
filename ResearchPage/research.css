@@ -1,0 +1,29 @@
+/*Custom Stylesheet*/
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*Head of the Body*/
+.head{
+	background: url("stockresearch3.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 50 %;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.head > h1{
+	color: #fff;
+	margin-top: 100px;
+}
+
+p.sansserif{
+	font-family: Verdana, sans-serif;
+}

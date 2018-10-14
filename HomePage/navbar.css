@@ -6,7 +6,7 @@ html,body {padding: 0; margin: 0;} /*removes default padding around things*/
   flex-direction: row-reverse;/* buttons to align left to right on screen*/
   background-color: #57d31f;
   top:0;
-  position: absolute;/*fix position of nav bar to top of screen*/
+  position: fixed;/*fix position of nav bar to top of screen*/
   left: 0;
   right: 0;
   width:auto;
@@ -31,7 +31,7 @@ html,body {padding: 0; margin: 0;} /*removes default padding around things*/
 
 /*CSS for logo*/
 #logo {
-  position: absolute;
+  position: fixed; /*fixes logo to top of page*/
   top: 15px;
   left: 0;
 }

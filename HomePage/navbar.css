@@ -1,0 +1,71 @@
+html,body {padding: 0; margin: 0;} /*removes default padding around things*/
+
+/*CSS for top navigation bar*/
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;/* buttons to align left to right on screen*/
+  background-color: #57d31f;
+  top:0;
+  position: fixed;/*fix position of nav bar to top of screen*/
+  left: 0;
+  right: 0;
+  width:auto;
+  padding: 10px;
+  margin: 0px;
+
+}
+.navlinks {/*buttons in top navbar*/
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #57d31f;/*background color of each link*/
+  color: black;/*text color of each link*/
+
+}
+
+.navlinks:hover {/*changes text when hover over button*/
+    color: gray;/*link text color*/
+    text-decoration: underline;
+}
+
+/*CSS for logo*/
+#logo {
+  position: fixed; /*fixes logo to top of page*/
+  top: 15px;
+  left: 0;
+}
+
+/* login button */
+.log {
+  border-radius: 4px;
+  border: 2px solid black;/*change 3rd item when change login text color pls*/
+  background-color: #57d31f;/*background of button*/
+  color: black;/*text color*/
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.log:hover {
+  color: gray;/*text color*/
+  border: 2px solid gray;/*outline color*/
+
+}
+
+/*sign up button*/
+.signup {
+  border-radius: 4px;
+  border: 2px solid #57d31f;/*border color*/
+  background-color: black;/*background color*/
+  color: #57d31f;/*text color*/
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.signup:hover{
+  color:gray;/*text color*/
+}

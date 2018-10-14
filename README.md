@@ -1,2 +1,2 @@
 # UCM-Adviser Website
-The UAVAdviser Website development team repository from the University of California, Merced.
+The UAVAdviser website development team repository from the University of California, Merced.
